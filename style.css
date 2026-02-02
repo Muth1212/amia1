@@ -1,0 +1,52 @@
+body {
+  background-color: Lightpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.question {
+  color: white;
+  border: 3px solid hotpink;  
+  padding: 20px 30px;         
+  border-radius: 15px;        
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+#yesbutton {
+  background-color: #FFCCCB;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#nobutton {
+  background-color: lightgrey;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+}
+
+.MESSAGE{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
